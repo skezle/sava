@@ -1,0 +1,17 @@
+# conda create -n <env> python 3.10
+# pip install -r requirements.txt
+adjusttext
+geomloss
+joblib
+matplotlib
+munkres
+numpy
+pandas
+pot
+scipy
+seaborn
+torch==2.7.1
+torchvision==0.22.1
+tqdm
+triton==3.3.1
+wandb
