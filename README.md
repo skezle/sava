@@ -1,6 +1,6 @@
 # SAVA: Scalable Learning-Agnostic Data Valuation
 
-This repository contains code to reproduce the experiments in the paper "SAVA: Scalable Learning-Agnostic Data Valuation": [arXiv](https://arxiv.org/abs/2106.00007).
+This repository contains code to reproduce the experiments in the paper "SAVA: Scalable Learning-Agnostic Data Valuation": [arXiv](https://arxiv.org/abs/2406.01130).
 
 We propose SAVA: scalable model-agnostic algorithm for data valuation on labeled datasets by performing optimal transport hierarchically at both batch and data point levels.
 
@@ -12,6 +12,12 @@ We consider the problem of valuing data points from a large noisy training set, 
 
 ![SAVA overview](./images/sava.drawio.png "SAVA")
 
+# Tracking and Visualization
+
+The code uses the **WandB** package. Install it using `pip`:
+
+```bash
+pip install wandb
 
 # CIFAR10 corruptions
 
